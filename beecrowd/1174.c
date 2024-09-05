@@ -2,7 +2,7 @@
 
 int main(){
     int A[100],
-        i = 0;
+        i = 0; //estive auqi 
 
     for (i = 0; i <= 99; i++){
         scanf("%d", &A[i]);
