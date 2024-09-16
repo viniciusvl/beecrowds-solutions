@@ -1,26 +1,33 @@
 #include <stdio.h>
 
-int main(){
-    int i, posicao, casos;
-    unsigned a, b, c;
-
-    scanf("%d", &casos);
-
-    while (casos--){
-        a = c = 0;
-        b = 1;
-
-        scanf("%d", &posicao);
-
-        for (i = 0; i < posicao; i++){
+unsigned long long Fibo (int posicao){
+    unsigned long long a = 0, b = 1, c = 0;
+    
+    if (posicao == 0)
+        c = 0;
+    if (posicao == 1)
+        c = 1;
+    else{
+        for (int i = 2; i <= posicao; i++){
             c = a + b;
             a = b;
             b = c;
-        }
-
-        printf("Fib(%d) = %d\n", posicao, a);
+        }   
     }
 
+    return c;
+}
+
+int main(){
+    int testes, posicao;
+
+    scanf("%d", &testes);
+
+    while (testes--){
+        scanf("%d", &posicao);
+
+        printf("Fib(%d) = %llu\n", posicao, Fibo(posicao));
+    }
 
     return 0;
 }
