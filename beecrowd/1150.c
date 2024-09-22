@@ -1,5 +1,0 @@
-#include <
-
-
-    return 0;
-}
