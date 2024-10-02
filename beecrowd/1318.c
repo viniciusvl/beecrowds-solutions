@@ -36,11 +36,7 @@ int main(){
         }
 
         int tickets[M];
-        int tamanho = sizeof(tickets) / sizeof(int);
-
-        for (i = 0; i < tamanho; i++){
-            scanf("%d", &tickets[i]);
-        }
+        int tamanho = sizeof(M) / sizeof(int);
  
         BubleSort(tickets, tamanho);
 
@@ -48,8 +44,8 @@ int main(){
             if (tickets[i] == tickets[i+1]){
                 total += 1;
                 for (j = i+1; j < tamanho; j++){
-                    if (tickets[j] != tickets[j+1]){
-                        i = j+1;
+                    if (tickets[j] != tickets[j-1]){
+                        i = j;
                         break;
                     }
                 }
