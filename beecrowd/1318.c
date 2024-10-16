@@ -21,8 +21,6 @@ void BubleSort(int tickets[], int tamanho){
     }
 }
 
-
-
 int main(){
     int N, M, i, total, j;
 
