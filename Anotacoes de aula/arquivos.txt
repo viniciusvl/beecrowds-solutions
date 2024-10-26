@@ -1,0 +1,18 @@
+IDEIAS DE PROJETO: FAZER UM SISTEMA DE MATRÍCULA SALVANDO TODOS OS 
+FAZER UM GRANDE ARQUIVO DE PALAVRAS ALEATÓRIAS E USAR NA FORCA
+
+
+Ler arquivos é um processo lento para o computador, então o computador joga os dados do arquvio para o registrador do processador 
+    - Ele não escreve diretamente na memória, mas deixa no buffer para o programa escrever após o refresh]
+
+fopen = abre o arquuivos 
+fclos = fecha o arquivo e manda para o buffer
+
+
+
+
+
+                        ARQUIVOS BINÁRIOS
+
+Um arquivo é uma sequência de dados que segue uma organização. Um arquivo binário pode ser visto como um array de inteiros 
+ 

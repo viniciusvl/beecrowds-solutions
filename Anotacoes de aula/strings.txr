@@ -1,0 +1,46 @@
+Copiar strings: strcpy()
+
+    strcpy(char *destino, const char *origem);
+    - Retorna um endereço de memória
+
+
+        COMO FUNCIONA:
+char *StrCpy(char *destino, const char *origem){
+    int i = 0;
+
+    while (destino(i) = origem[i++] != '\0');
+
+    return destino;
+}
+
+str = strcpy(copia, array);
+
+
+Concatenar um string: strcat()
+
+
+        COMO FUNCIONA
+    char *StrCat(char *destino, const char *origem){
+        int i = strlen(destino);
+        int j = 0; //percorre o array destino
+
+        while (destino[i++] = origem[j++] != '\0');
+    }
+
+
+Compara strings: strcmp()
+    Compara caractere a caractere de acordo com a tabela ASCII
+
+    a = 31
+    b = 32
+
+    Logo, b é maior que a
+
+Busca se uma string está contida em outra string: strstr()
+    retorna o endereço de onde o string foi encontrado, ou seja, um ponteiro
+
+
+Procura um caractere na string: strchr()
+    retorna o endereço do elemento encontrado 
+
+    strrchr() = retorna o endereço de tras pra frente (ou seja, a ultima ocorrencia)

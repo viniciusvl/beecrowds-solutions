@@ -1,0 +1,25 @@
+O que acontece se declarar um indice que nao existe em C:
+        - Compila, mas vai dar erro 
+        - Pode pegar alguma variavel que o sistema atribuiu ao lado do array
+
+
+Ponteiros para arrays: pode-se fazer com que p aponte para um único elemento do array
+        - int *p = &A[1];
+
+arrays podem ter varias dimensões:
+        2 dimenosões: matriz
+                <nome_da_matriz> [row][column]
+
+COMO DECLARAR:
+        A[5] = {1, 2} está correto e preenche o resto com 0
+        A[] = {1, 2, 3} sem especificar tamanho preciso dizer quais são os elementos dele 
+        A[5] = {t} pode declarar arrays com variaveis
+
+FUNÇÕES COM arrays
+        Sempre passar array como parametro com um parametro a mais, pois a linguagem não entende o tamanho do array de cara 
+
+float Media(int ar[], int tamanho){ DEVE-SE PEGAR O TAMANHO DO ARRAY NA MAIN
+
+Ao passar um array para a função, não é feita uma cópia, ou seja, o array passa por inteiro com seus valores
+
+}

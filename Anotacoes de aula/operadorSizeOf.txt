@@ -1,0 +1,10 @@
+Serve para analisar o tamanho necessário em bytes de uma variavel 
+
+sizeof (++i) NAO FUNCIONA, pois sizeof não aplica nenhuma alteração em variavel 
+
+sizeof(array) = tamanho total de bytes do array
+
+tamanho do array:
+
+    tamanhoDoArray = sizeof(array) / sizeof(primeiroElemento)
+
