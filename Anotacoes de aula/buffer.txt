@@ -1,7 +1,0 @@
-Como funciona um scanf em C 
-
-BUFFER = area da memoria destinada aos dados do scanf
-    - Tudo que entra pelo teclado, vai para a memória
-
-Devemos esvaziar o buffer para ler um caractere
-    Usa-se o scanf("%*c")
